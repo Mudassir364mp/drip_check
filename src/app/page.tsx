@@ -17,6 +17,7 @@ export default function Home() {
             src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&q=80"
             alt="Luxury Watch Background"
             fill
+            sizes="100vw"
             className="object-cover opacity-30"
             priority
           />
@@ -77,6 +78,7 @@ export default function Home() {
                   src={`https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&q=80`}
                   alt="Watch"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -115,6 +117,7 @@ export default function Home() {
               src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&q=80"
               alt="Watchmaking"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
             />
           </div>
